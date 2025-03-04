@@ -1,4 +1,0 @@
-main()
-{
-  printf("Hellow World!!!")
-}
