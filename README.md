@@ -60,15 +60,7 @@
 
 ## 四、ER Diagram（實體關係圖）
 
-\`\`\`plaintext
-[Customer]---<places>---[Order]---<contains>---[OrderItem]---<refers>---[Product]---<listed_by>---[Seller]
-   |                                                |
-  (writes)                                        (receives)
-   |                                                |
-[Review]---------------------------------------->[Product]
-   
-[Admin] -- manages --> [Customer], [Seller], [Product]
-\`\`\`
+<div align=center> <img src="ecommerce_er_diagram.png"/> </div>
 
 ---
 
