@@ -96,7 +96,7 @@
 - `product_id (FK → Product.product_id)`
 - `quantity`
 - `price_at_purchase`
-> 複合主鍵：(`order_id`, `product_id`)
+- 複合主鍵：(`order_id`, `product_id`)
 
 ### 7. `Review`（商品評價）
 - `review_id (PK)`
