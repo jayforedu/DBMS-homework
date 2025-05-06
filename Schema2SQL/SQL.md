@@ -1,22 +1,22 @@
-CREATE TABLE Customer (
-    customer_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
-    password_hash VARCHAR(255) NOT NULL
-);
+# 1. Customer（買家）
 
--- 範例
-INSERT INTO Customer (name, email, password_hash)
-VALUES ('Alice Lin', 'alice@example.com', 'hashed_password1');
+|  欄位名稱   | 資料型別  | 說明 |
+|  ----  | ----  | ----  |
+| customer_id  | INT (PK) | 買家主鍵，自動編號 |
+| name  | VARCHAR(100) | 姓名 |
+| email  | VARCHAR(255) | 電子郵件，唯一值 |
+| password_hash  | VARCHAR(255) | 密碼加密值 |
 
-CREATE TABLE Seller (
-    seller_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
-    password_hash VARCHAR(255) NOT NULL
-);
+# SQL<br>
+```
+CREATE TABLE Customer (<br>
+    customer_id INT PRIMARY KEY AUTO_INCREMENT,<br>
+    name VARCHAR(100) NOT NULL,<br>
+    email VARCHAR(255) UNIQUE NOT NULL,<br>
+    password_hash VARCHAR(255) NOT NULL<br>
+);<br>
+```
 
--- 範例
-INSERT INTO Seller (name, email, password_hash)
-VALUES ('Shop A', 'shopa@example.com', 'hashed_password2');
-
+# 範例<br>
+INSERT INTO Customer (name, email, password_hash)<br>
+VALUES ('Alice Lin', 'alice@example.com', 'hashed_password1');<br>
