@@ -62,50 +62,66 @@
 ## 五、ER Diagram 詳細說明（實體與關係）
 
 ### 1. `Customer`（買家）
-- `customer_id (PK)`
-- `name`
-- `email (unique)`
-- `password_hash`
+| 欄位名稱     | 欄位說明   | 鍵類型 | 參照說明 | 是否可為空 | 
+|--------------|------------|--------|----------|-------------|
+| customer_id  | 客戶編號   | 主鍵   |          | 否          | 
+| name         | 姓名       |        |          | 否          | 
+| email        | 電子郵件   | 唯一   |          | 否          | 
+
 
 ### 2. `Seller`（賣家）
-- `seller_id (PK)`
-- `name`
-- `email (unique)`
-- `password_hash`
+| 欄位名稱     | 欄位說明   | 鍵類型 | 參照說明 | 是否可為空 | 
+|--------------|------------|--------|----------|-------------|
+| seller_id    | 賣家編號   | 主鍵   |          | 否          | 
+| name         | 姓名       |        |          | 否          | 
+| email        | 電子郵件   | 唯一   |          | 否          | 
+
 
 ### 3. `Admin`（管理員）
-- `admin_id (PK)`
-- `username`
-- `password_hash`
+| 欄位名稱     | 欄位說明     | 鍵類型 | 參照說明 | 是否可為空 | 
+|--------------|--------------|--------|----------|-------------|
+| admin_id     | 管理員編號   | 主鍵   |          | 否          | 
+| username     | 使用者名稱   | 唯一   |          | 否          | 
+
 
 ### 4. `Product`（商品）
-- `product_id (PK)`
-- `name`
-- `price`
-- `stock`
-- `category`
-- `seller_id (FK → Seller.seller_id)`
+| 欄位名稱     | 欄位說明     | 鍵類型 | 參照說明          | 是否可為空 | 
+|--------------|--------------|--------|--------------------|-------------|
+| product_id   | 商品編號     | 主鍵   |                    | 否          | 
+| name         | 商品名稱     |        |                    | 否          | 
+| price        | 價格         |        |                    | 否          | 
+| stock        | 庫存數量     |        |                    | 否          | 
+| category     | 商品類別     |        |                    | 是          | 
+| seller_id    | 賣家編號     | 外鍵   | 參照 Seller.seller_id | 否          | 
+
 
 ### 5. `Order`（訂單）
-- `order_id (PK)`
-- `order_date`
-- `status`（未付款 / 處理中 / 已出貨 / 已完成）
-- `customer_id (FK → Customer.customer_id)`
+| 欄位名稱     | 欄位說明     | 鍵類型 | 參照說明               | 是否可為空 |
+|--------------|--------------|--------|-------------------------|-------------|
+| order_id     | 訂單編號     | 主鍵   |                         | 否          | 
+| order_date   | 訂單日期     |        |                         | 否          | 
+| status       | 訂單狀態     |        |                         | 否          | 
+| customer_id  | 客戶編號     | 外鍵   | 參照 Customer.customer_id | 否          | 
+
 
 ### 6. `OrderItem`（訂單項目）
-- `order_id (FK → Order.order_id)`
-- `product_id (FK → Product.product_id)`
-- `quantity`
-- `price_at_purchase`
-- 複合主鍵：(`order_id`, `product_id`)
+| 欄位名稱         | 欄位說明     | 鍵類型     | 參照說明                | 是否可為空 | 
+|------------------|--------------|------------|--------------------------|-------------|
+| order_id         | 訂單編號     | 複合主鍵   | 參照 Order.order_id      | 否          | 
+| product_id       | 商品編號     | 複合主鍵   | 參照 Product.product_id  | 否          | 
+| quantity         | 購買數量     |            |                          | 否          |
+| price_at_purchase| 購買時單價   |            |                          | 否          | 
 
 ### 7. `Review`（商品評價）
-- `review_id (PK)`
-- `product_id (FK → Product.product_id)`
-- `customer_id (FK → Customer.customer_id)`
-- `rating (1-5)`
-- `comment`
-- `review_date`
+| 欄位名稱     | 欄位說明     | 鍵類型 | 參照說明                 | 是否可為空 | 
+|--------------|--------------|--------|---------------------------|-------------|
+| review_id    | 評價編號     | 主鍵   |                           | 否          |
+| product_id   | 商品編號     | 外鍵   | 參照 Product.product_id   | 否          | 
+| customer_id  | 客戶編號     | 外鍵   | 參照 Customer.customer_id | 否          | 
+| rating       | 評分         |        |                           | 否          |
+| comment      | 評論內容     |        |                           | 是          | 
+| review_date  | 評論日期     |        |                           | 否          | 
+
 
 ---
 
