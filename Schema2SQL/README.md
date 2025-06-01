@@ -10,10 +10,10 @@
 ## SQL<br>
 ```
 CREATE TABLE Customer (<br>
-    customer_id INT PRIMARY KEY AUTO_INCREMENT,<br>
-    name VARCHAR(100) NOT NULL,<br>
-    email VARCHAR(255) UNIQUE NOT NULL,<br>
-    password_hash VARCHAR(255) NOT NULL<br>
+    customer_id INT PRIMARY KEY AUTO_INCREMENT, 
+    name VARCHAR(100) NOT NULL, 
+    email VARCHAR(255) UNIQUE NOT NULL, 
+    password_hash VARCHAR(255) NOT NULL
 );<br>
 ```
 
