@@ -19,8 +19,8 @@ CREATE TABLE Customer (
 
 ## 範例<br>
 ```
-INSERT INTO Customer (name, email, password_hash)<br>
-VALUES ('Alice Lin', 'alice@example.com', 'hashed_password1');<br>
+INSERT INTO Customer (name, email, password_hash)
+VALUES ('Alice Lin', 'alice@example.com', 'hashed_password1');
 ```
 <br>
 
