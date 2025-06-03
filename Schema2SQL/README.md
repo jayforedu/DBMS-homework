@@ -193,7 +193,8 @@ INSERT INTO Review (product_id, customer_id, rating, comment)
 VALUES (1, 1, 5, '非常好用，品質也很棒');
 ```
 
-<div align=center> <img src="C:\Users\user\Downloads\DB_SCHEMA.drawio.svg"/> </div>
+<img src="docs/DB_SCHEMA.drawio.svg" alt="資料庫圖" width="600"/>
+
 
 
 ---
