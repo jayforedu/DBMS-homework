@@ -18,8 +18,18 @@ CREATE TABLE Customer (
 
 ### 範例
 ```sql
-INSERT INTO Customer (name, email)
-VALUES ('Alice Lin', 'alice@example.com');
+INSERT INTO Customer (name, email) VALUES
+('Alice Lin', 'alice@example.com'),
+('Bob Chen', 'bob@example.com'),
+('Cathy Wang', 'cathy@example.com'),
+('David Liu', 'david@example.com'),
+('Emma Wu', 'emma@example.com'),
+('Frank Huang', 'frank@example.com'),
+('Grace Tsai', 'grace@example.com'),
+('Henry Yeh', 'henry@example.com'),
+('Irene Kuo', 'irene@example.com'),
+('Jacky Hsu', 'jacky@example.com');
+
 ```
 
 ---
@@ -43,8 +53,18 @@ CREATE TABLE Seller (
 
 ### 範例
 ```sql
-INSERT INTO Seller (name, email)
-VALUES ('Shop A', 'shopa@example.com');
+INSERT INTO Seller (name, email) VALUES
+('Shop A', 'shopa@example.com'),
+('Shop B', 'shopb@example.com'),
+('Shop C', 'shopc@example.com'),
+('Gadget World', 'gadget@example.com'),
+('Book Haven', 'book@example.com'),
+('Fashion Zone', 'fashion@example.com'),
+('TechHub', 'techhub@example.com'),
+('Kitchen Pro', 'kitchen@example.com'),
+('Toy Planet', 'toys@example.com'),
+('Green Garden', 'garden@example.com');
+
 ```
 
 ---
@@ -66,8 +86,17 @@ CREATE TABLE Admin (
 
 ### 範例
 ```sql
-INSERT INTO Admin (username)
-VALUES ('admin1');
+INSERT INTO Admin (username) VALUES
+('admin1'),
+('admin2'),
+('julia_admin'),
+('superadmin'),
+('system_mgr'),
+('useradmin'),
+('john_doe'),
+('susan_admin'),
+('admin_test'),
+('webmaster');
 ```
 
 ---
@@ -98,8 +127,18 @@ CREATE TABLE Product (
 
 ### 範例
 ```sql
-INSERT INTO Product (name, price, stock, category, seller_id)
-VALUES ('Wireless Mouse', 599.00, 100, 'Electronics', 1);
+INSERT INTO Product (name, price, stock, category, seller_id) VALUES
+('Wireless Mouse', 599.00, 100, 'Electronics', 1),
+('Bluetooth Keyboard', 899.00, 80, 'Electronics', 1),
+('USB-C Charger', 299.00, 150, 'Accessories', 2),
+('Laptop Stand', 799.00, 50, 'Office', 3),
+('Notebook', 59.00, 200, 'Stationery', 5),
+('T-Shirt', 399.00, 120, 'Clothing', 6),
+('Coffee Maker', 1299.00, 30, 'Kitchen', 8),
+('Action Figure', 499.00, 75, 'Toys', 9),
+('Garden Shovel', 199.00, 60, 'Garden', 10),
+('LED Desk Lamp', 699.00, 40, 'Lighting', 4);
+
 ```
 
 ---
@@ -126,8 +165,18 @@ CREATE TABLE `Order` (
 
 ### 範例
 ```sql
-INSERT INTO `Order` (status, customer_id)
-VALUES ('處理中', 1);
+INSERT INTO `Order` (status, customer_id) VALUES
+('處理中', 1),
+('已完成', 2),
+('已出貨', 3),
+('未付款', 4),
+('處理中', 5),
+('已完成', 6),
+('已出貨', 7),
+('處理中', 8),
+('未付款', 9),
+('處理中', 10);
+
 ```
 
 ---
@@ -156,8 +205,18 @@ CREATE TABLE OrderItem (
 
 ### 範例
 ```sql
-INSERT INTO OrderItem (order_id, product_id, quantity, price_at_purchase)
-VALUES (1, 1, 2, 599.00);
+INSERT INTO OrderItem (order_id, product_id, quantity, price_at_purchase) VALUES
+(1, 1, 2, 599.00),
+(1, 2, 1, 899.00),
+(2, 3, 3, 299.00),
+(3, 4, 1, 799.00),
+(4, 5, 5, 59.00),
+(5, 6, 2, 399.00),
+(6, 7, 1, 1299.00),
+(7, 8, 4, 499.00),
+(8, 9, 2, 199.00),
+(9, 10, 1, 699.00);
+
 ```
 
 ---
@@ -189,8 +248,17 @@ CREATE TABLE Review (
 
 ### 範例
 ```sql
-INSERT INTO Review (product_id, customer_id, rating, comment)
-VALUES (1, 1, 5, '非常好用，品質也很棒');
+INSERT INTO Review (product_id, customer_id, rating, comment) VALUES
+(1, 1, 5, '非常好用，品質也很棒'),
+(2, 2, 4, '打字手感不錯，就是有點重'),
+(3, 3, 3, '充電頭普通，不過夠用'),
+(4, 4, 5, '很穩定的支架，推薦'),
+(5, 5, 4, '紙質不錯，適合書寫'),
+(6, 6, 2, '材質一般，容易皺'),
+(7, 7, 5, '煮咖啡很方便，滿意'),
+(8, 8, 4, '小朋友很喜歡'),
+(9, 9, 3, '有點小貴，但好用'),
+(10, 10, 5, '燈光柔和，很適合夜讀');
 ```
 
 <div align=center> <img src="DB_SCHEMA.drawio.svg" alt="資料庫綱要圖" width="800"/> </div>
