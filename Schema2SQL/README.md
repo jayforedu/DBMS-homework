@@ -193,5 +193,7 @@ INSERT INTO Review (product_id, customer_id, rating, comment)
 VALUES (1, 1, 5, '非常好用，品質也很棒');
 ```
 
+![image](https://github.com/user-attachments/assets/89a5f849-8820-4471-b777-1d64fca67a27)
+
 ---
 
