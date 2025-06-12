@@ -138,10 +138,10 @@ INSERT INTO Admin (username) VALUES
 ```sql
 CREATE TABLE Product (
     product_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(50) NOT NULL CHECK (name REGEXP '^[\\u4e00-\\u9fa5A-Za-z0-9 ]{3,50}$'),
+    name VARCHAR(50) NOT NULL CHECK (name REGEXP '^[A-Za-z0-9 ]{3,50}$'),
     price DECIMAL(10, 2) NOT NULL CHECK (price > 0),
     stock INT NOT NULL CHECK (stock >= 0),
-    category VARCHAR(50) CHECK (category IS NULL OR category REGEXP '^[\\u4e00-\\u9fa5A-Za-z0-9 ]{0,50}$'),
+    category VARCHAR(50) CHECK (name REGEXP '^[A-Za-z0-9 ]{3,50}$'),
     seller_id INT NOT NULL,
     FOREIGN KEY (seller_id) REFERENCES Seller(seller_id)
 );
