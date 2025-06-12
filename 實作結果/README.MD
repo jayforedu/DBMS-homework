@@ -31,10 +31,12 @@
 詳細請看 [三、完整性限制（Integrity Constraints）](https://github.com/jayforedu/DBMS-homework/tree/main?tab=readme-ov-file#%E4%B8%89%E5%AE%8C%E6%95%B4%E6%80%A7%E9%99%90%E5%88%B6integrity-constraints)
 
 ## 3. 範例資料成功插入
-每張資料表均已導入 10 筆測試資料，資料涵蓋多樣情境，例如：
+每張資料表均已導入 10 筆測試資料。
 
-如下圖多位買家與賣家，具不同性別與聯絡資訊
+下圖為買家之資料表
 <div align=center> <img src="pics/customer.png"/> </div>
+<br>
+下圖為賣家之資料表
 <div align=center> <img src="pics/seller.png"/> </div>
 商品分類包含電子、服飾、玩具、廚房用品等
 
