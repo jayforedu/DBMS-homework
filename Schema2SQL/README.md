@@ -290,7 +290,7 @@ INSERT INTO Review (product_id, customer_id, rating, comment) VALUES
 (10, 10, 5, '燈光柔和，很適合夜讀');
 ```
 
-<div align=center> <img src="Schema2SQL/DB_SCHEMA.drawio.s.svg" alt="資料庫綱要圖" width="800"/> </div>
+<div align=center> <img src="DB_SCHEMA.drawio.s.svg" alt="資料庫綱要圖" width="800"/> </div>
 
 
 ---
