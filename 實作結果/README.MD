@@ -42,7 +42,7 @@
 <br>
 
 下圖為管理員之資料表
-<div align=center> <img src="pics/Admin.png"/> </div>
+<div align=center> <img src="pics/admin.png"/> </div>
 <br>
 
 下圖為商品之資料表
