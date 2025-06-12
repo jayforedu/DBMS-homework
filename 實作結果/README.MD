@@ -54,7 +54,7 @@
 <br>
 
 下圖為訂單項目之資料表
-<div align=center> <img src="pics/orderItem.png"/> </div>
+<div align=center> <img src="pics/orderitem.png"/> </div>
 <br>
 
 下圖為商品評價之資料表
