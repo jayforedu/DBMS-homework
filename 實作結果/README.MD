@@ -27,6 +27,7 @@
 |出生日期 | 不可為未來時間 |
 |商品價格與庫存 | 不得為負數或零 |
 |評價分數 | 限定為 1–5 分 |
+
 詳細請看 [三、完整性限制（Integrity Constraints）](https://github.com/jayforedu/DBMS-homework/tree/main?tab=readme-ov-file#%E4%B8%89%E5%AE%8C%E6%95%B4%E6%80%A7%E9%99%90%E5%88%B6integrity-constraints)
 
  3. 範例資料成功插入
