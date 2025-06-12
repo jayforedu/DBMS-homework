@@ -36,25 +36,28 @@
 下圖為買家之資料表
 <div align=center> <img src="pics/customer.png"/> </div>
 <br>
+
 下圖為賣家之資料表
 <div align=center> <img src="pics/seller.png"/> </div>
-商品分類包含電子、服飾、玩具、廚房用品等
+<br>
 
-訂單涵蓋不同狀態與多項商品
+下圖為管理員之資料表
+<div align=center> <img src="pics/Admin.png"/> </div>
+<br>
 
-商品評價涵蓋正面與中立留言，模擬實際使用者行為
+下圖為商品之資料表
+<div align=center> <img src="pics/product.png"/> </div>
+<br>
 
-## 4. 查詢與驗證功能正常
-可透過以下指令成功查詢資料與結構：
+下圖為訂單之資料表
+<div align=center> <img src="pics/order.png"/> </div>
+<br>
 
-```sql
--- 查詢欄位結構
-DESCRIBE `Order`;
+下圖為訂單項目之資料表
+<div align=center> <img src="pics/orderItem.png"/> </div>
+<br>
 
--- 查詢表中資料
-SELECT * FROM Product;
+下圖為商品評價之資料表
+<div align=center> <img src="pics/review.png"/> </div>
+<br>
 
--- 顯示所有資料表
-SHOW TABLES;
-```
-資料皆能正確顯示，完整性限制亦能有效阻止格式錯誤的輸入（如帳號名稱含底線、錯誤格式的 Email 等），達成資料品質控管。
