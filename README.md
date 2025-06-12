@@ -1,9 +1,12 @@
 # 第3組
 
-組員
-===
-41043218陳荔群、41043220曾聖傑、41043255蘇于驊、41048110梁詠琳<br>
-===
+組員:<br>
+41043218陳荔群 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E9%99%B3%E8%8D%94%E7%BE%A4.md)<br>
+41043220曾聖傑 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E6%9B%BE%E8%81%96%E5%82%91.md)<br>
+41043255蘇于驊 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E8%98%87%E4%BA%8E%E9%A9%8A.md)<br>
+41048110梁詠琳 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E6%A2%81%E8%A9%A0%E7%90%B3.md)
+
+
 # 題目: 電商平台資料庫設計
 
 ---
