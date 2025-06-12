@@ -33,8 +33,9 @@
 ## 3. 範例資料成功插入
 每張資料表均已導入 10 筆測試資料，資料涵蓋多樣情境，例如：
 
-多位買家與賣家，具不同性別與聯絡資訊
-
+如下圖多位買家與賣家，具不同性別與聯絡資訊
+<div align=center> <img src="pics/customer.png"/> </div>
+<div align=center> <img src="pics/seller.png"/> </div>
 商品分類包含電子、服飾、玩具、廚房用品等
 
 訂單涵蓋不同狀態與多項商品
