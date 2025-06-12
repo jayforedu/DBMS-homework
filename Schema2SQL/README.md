@@ -103,7 +103,7 @@ CREATE TABLE Admin (
     username VARCHAR(20) NOT NULL UNIQUE,
     CONSTRAINT chk_username_format_admin CHECK (username REGEXP '^[A-Za-z0-9]{3,20}$')
 );
-
+```
 
 ### 範例
 ```sql
