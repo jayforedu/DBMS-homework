@@ -21,8 +21,7 @@ CREATE TABLE Customer (
     birthdate DATE NOT NULL,
     CONSTRAINT chk_name_format CHECK (name REGEXP '^[A-Za-z0-9]{3,20}$'),
     CONSTRAINT chk_email_format CHECK (email REGEXP '^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$'),
-    CONSTRAINT chk_phone_format CHECK (phone_number REGEXP '^09\\d{8}$'),
-    CONSTRAINT chk_birthdate_past CHECK (birthdate <= CURDATE())
+    CONSTRAINT chk_phone_format CHECK (phone_number REGEXP '^09\\d{8}$')
 );
 ```
 
