@@ -110,14 +110,15 @@ CREATE TABLE Admin (
 INSERT INTO Admin (username) VALUES
 ('admin1'),
 ('admin2'),
-('julia_admin'),
+('juliaadmin'),
 ('superadmin'),
-('system_mgr'),
+('systemmgr'),
 ('useradmin'),
-('john_doe'),
-('susan_admin'),
-('admin_test'),
+('johndoe'),
+('susanadmin'),
+('admintest'),
 ('webmaster');
+
 ```
 
 ---
