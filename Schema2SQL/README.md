@@ -65,8 +65,7 @@ CREATE TABLE Seller (
     birthdate DATE NOT NULL,
     CONSTRAINT chk_name_format_seller CHECK (name REGEXP '^[A-Za-z0-9]{3,20}$'),
     CONSTRAINT chk_email_format_seller CHECK (email REGEXP '^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$'),
-    CONSTRAINT chk_phone_format_seller CHECK (phone_number REGEXP '^09\\d{8}$'),
-    CONSTRAINT chk_birthdate_past_seller CHECK (birthdate <= CURDATE())
+    CONSTRAINT chk_phone_format_seller CHECK (phone_number REGEXP '^09\\d{8}$')
 );
 
 ```
