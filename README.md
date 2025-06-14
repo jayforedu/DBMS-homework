@@ -830,4 +830,5 @@ SELECT * FROM LatestProductReview;
 ---
 
 ## 十、參考資料
-[MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN#H1)
+[MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN#H1)<br>
+[Day 23 — 關聯式資料庫: 從設計講起](https://ithelp.ithome.com.tw/articles/10242588)
