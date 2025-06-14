@@ -133,7 +133,7 @@
 
 ## 四、ER Diagram（實體關係圖）
 
-<div align=center> <img src="er_diagram.png"/> </div>
+<div align=center> <img src="pics/er_diagram.png"/> </div>
 
 ---
 
