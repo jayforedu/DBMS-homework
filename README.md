@@ -1,10 +1,10 @@
 # 第3組
 
 組員:<br>
-41043218陳荔群 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E9%99%B3%E8%8D%94%E7%BE%A4.md)<br>
-41043220曾聖傑 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E6%9B%BE%E8%81%96%E5%82%91.md)<br>
-41043255蘇于驊 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E8%98%87%E4%BA%8E%E9%A9%8A.md)<br>
-41048110梁詠琳 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E6%A2%81%E8%A9%A0%E7%90%B3.md)
+41043218 陳荔群 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E9%99%B3%E8%8D%94%E7%BE%A4.md)<br>
+41043220 曾聖傑 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E6%9B%BE%E8%81%96%E5%82%91.md)<br>
+41043255 蘇于驊 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E8%98%87%E4%BA%8E%E9%A9%8A.md)<br>
+41048110 梁詠琳 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E6%A2%81%E8%A9%A0%E7%90%B3.md)
 
 # [完整報告連結](https://docs.google.com/document/d/18K9Urzg_hpc5BT1ZAGIT-bQqj3oyajBH6KNKCSgzMGU/edit?tab=t.0)
 # [完整簡報連結](https://www.canva.com/design/DAGivp69-gc/Ky45_GibHg5YyThQJ2NwMw/edit)
@@ -29,15 +29,15 @@
 
 **本專題皆有使用ChatGPT輔助**
 
-### 🔹 應用情境說明
+###  應用情境說明
 本系統模擬一個電商平台（如蝦皮），讓賣家能夠上架商品、管理訂單，買家能夠註冊帳號、瀏覽商品、下訂單與付款，並提供評價功能。系統亦包含後台管理員可監控整體平台狀況。
 
-### 🔹 使用者角色
+###  使用者角色
 - 買家（Customer）  
 - 賣家（Seller）  
 - 管理員（Admin）
 
-### 🔹 主要使用案例 Use Cases
+###  主要使用案例 Use Cases
 
 | 使用者角色 | 使用案例 |
 |------------|-----------|
