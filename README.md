@@ -261,35 +261,55 @@
 ## 3. 範例資料成功插入
 每張資料表均已導入 10 筆測試資料。
 
-下圖為買家之資料表
-<div align=center> <img src="pics/customer.png"/> </div>
-<br>
-
-下圖為賣家之資料表
-<div align=center> <img src="pics/seller.png"/> </div>
-<br>
-
-下圖為管理員之資料表
-<div align=center> <img src="pics/admin.png"/> </div>
-<br>
-
-下圖為商品之資料表
-<div align=center> <img src="pics/product.png"/> </div>
-<br>
-
-下圖為訂單之資料表
-<div align=center> <img src="pics/order.png"/> </div>
-<br>
-
-下圖為訂單項目之資料表
-<div align=center> <img src="pics/orderitem.png"/> </div>
-<br>
-
-下圖為商品評價之資料表
-<div align=center> <img src="pics/review.png"/> </div>
+|  <center>下圖為買家之資料表</center> |
+| ------- |
+| <div align=center> <img src="pics/customer.png"/> </div>  |
 <br>
 
 ---
+
+|  <center>下圖為賣家之資料表 </center> |
+| ------- |
+| <div align=center> <img src="pics/seller.png"/> </div>  |
+<br>
+
+---
+
+|  <center>下圖為管理員之資料表</center> |
+| ------- |
+| <div align=center> <img src="pics/admin.png"/> </div>  |
+<br>
+
+---
+
+|  <center>下圖為商品之資料表</center> |
+| ------- |
+| <div align=center> <img src="pics/product.png"/> </div>  |
+<br>
+
+---
+
+|  <center>下圖為訂單之資料表</center> |
+| ------- |
+| <div align=center> <img src="pics/order.png"/> </div>  |
+<br>
+
+---
+
+|  <center>下圖為訂單項目之資料表</center> |
+| ------- |
+| <div align=center> <img src="pics/orderitem.png"/> </div>  |
+<br>
+
+---
+
+下圖為商品評價之資料表</center> |
+| ------- |
+| <div align=center> <img src="pics/review.png"/> </div>  |
+<br>
+
+---
+
 ## 七、view實作
 
 ### CustomerPublicInfo View
