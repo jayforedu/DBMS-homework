@@ -12,12 +12,12 @@
 ---
 目錄
 ===
-[ 一、應用情境與使用案例](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%B8%80%E6%87%89%E7%94%A8%E6%83%85%E5%A2%83%E8%88%87%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8Buse-case)<br>
+[一、應用情境與使用案例](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%B8%80%E6%87%89%E7%94%A8%E6%83%85%E5%A2%83%E8%88%87%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8Buse-case)<br>
 [二、系統需求說明](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%BA%8C%E7%B3%BB%E7%B5%B1%E9%9C%80%E6%B1%82%E8%AA%AA%E6%98%8E)<br>
-[三、完整性限制（Integrity Constraints） ](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%B8%89%E5%AE%8C%E6%95%B4%E6%80%A7%E9%99%90%E5%88%B6integrity-constraints)<br>
-[四、ER Diagram（實體關係圖） ](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E5%9B%9Ber-diagram%E5%AF%A6%E9%AB%94%E9%97%9C%E4%BF%82%E5%9C%96)<br>
-[五、ER Diagram 詳細說明（實體與關係） ](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%BA%94er-diagram-%E8%A9%B3%E7%B4%B0%E8%AA%AA%E6%98%8E%E5%AF%A6%E9%AB%94%E8%88%87%E9%97%9C%E4%BF%82)<br>
-[實作結果](https://github.com/jayforedu/DBMS-homework/tree/main/%E5%AF%A6%E4%BD%9C%E7%B5%90%E6%9E%9C)
+[三、完整性限制（Integrity Constraints）](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%B8%89%E5%AE%8C%E6%95%B4%E6%80%A7%E9%99%90%E5%88%B6integrity-constraints)<br>
+[四、ER Diagram（實體關係圖）](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E5%9B%9Ber-diagram%E5%AF%A6%E9%AB%94%E9%97%9C%E4%BF%82%E5%9C%96)<br>
+[五、ER Diagram 詳細說明（實體與關係）](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%BA%94er-diagram-%E8%A9%B3%E7%B4%B0%E8%AA%AA%E6%98%8E%E5%AF%A6%E9%AB%94%E8%88%87%E9%97%9C%E4%BF%82)<br>
+[六、實作結果](https://github.com/jayforedu/DBMS-homework/tree/main/%E5%AF%A6%E4%BD%9C%E7%B5%90%E6%9E%9C](https://github.com/jayforedu/DBMS-homework/tree/main?tab=readme-ov-file#%E5%85%AD%E5%AF%A6%E4%BD%9C%E7%B5%90%E6%9E%9C))<br>
 
 
 ## 一、應用情境與使用案例（Use Case）
