@@ -17,10 +17,11 @@
 [三、完整性限制（Integrity Constraints）](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%B8%89%E5%AE%8C%E6%95%B4%E6%80%A7%E9%99%90%E5%88%B6integrity-constraints)<br>
 [四、ER Diagram（實體關係圖）](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E5%9B%9Ber-diagram%E5%AF%A6%E9%AB%94%E9%97%9C%E4%BF%82%E5%9C%96)<br>
 [五、ER Diagram 詳細說明（實體與關係）](https://github.com/jayforedu/DBMS-homework?tab=readme-ov-file#%E4%BA%94er-diagram-%E8%A9%B3%E7%B4%B0%E8%AA%AA%E6%98%8E%E5%AF%A6%E9%AB%94%E8%88%87%E9%97%9C%E4%BF%82)<br>
-[六、Schema2SQL](https://github.com/jayforedu/DBMS-homework/tree/main#%E5%85%ADschema2sql)
+[六、Schema2SQL](https://github.com/jayforedu/DBMS-homework/tree/main#%E5%85%ADschema2sql)<br>
 [七、實作結果](https://github.com/jayforedu/DBMS-homework/tree/main#%E4%B8%83%E5%AF%A6%E4%BD%9C%E7%B5%90%E6%9E%9C)<br>
 [八、view實作](https://github.com/jayforedu/DBMS-homework/tree/main#%E5%85%ABview%E5%AF%A6%E4%BD%9C)<br>
-[九、團隊分工](https://github.com/jayforedu/DBMS-homework/tree/main#%E4%B9%9D%E5%9C%98%E9%9A%8A%E5%88%86%E5%B7%A5)
+[九、團隊分工](https://github.com/jayforedu/DBMS-homework/tree/main#%E4%B9%9D%E5%9C%98%E9%9A%8A%E5%88%86%E5%B7%A5)<br>
+[十、參考資料](url)
 
 ## 一、應用情境與使用案例（Use Case）
 
@@ -814,10 +815,7 @@ SELECT * FROM LatestProductReview;
 <div align=center> <img src="pics/LatesProductRiew.png"/> </div>
 <br>
 
-
 ---
-
-
 
 ## 九、團隊分工
 | 職位 | 姓名 | 分工項目 |
@@ -827,3 +825,7 @@ SELECT * FROM LatestProductReview;
 | 組員 | 蘇于驊 | 自我介紹、DB Schema繪製 |
 | 組員 | 梁詠琳 | 自我介紹、系統需求、簡報及完整報告製作 |
 
+---
+
+## 十、參考資料
+[MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN#H1)
