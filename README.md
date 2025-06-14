@@ -7,6 +7,7 @@
 41048110梁詠琳 [自我介紹](https://github.com/jayforedu/DBMS-homework/blob/main/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/%E6%A2%81%E8%A9%A0%E7%90%B3.md)
 
 # [完整報告連結](https://docs.google.com/document/d/18K9Urzg_hpc5BT1ZAGIT-bQqj3oyajBH6KNKCSgzMGU/edit?tab=t.0)
+# [完整簡報連結](https://www.canva.com/design/DAGivp69-gc/Ky45_GibHg5YyThQJ2NwMw/edit)
 
 # 題目: 電商平台資料庫設計
 
