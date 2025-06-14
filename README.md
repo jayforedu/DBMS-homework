@@ -833,4 +833,5 @@ SELECT * FROM LatestProductReview;
 
 ## 十、參考資料
 [MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN#H1)<br>
-[Day 23 — 關聯式資料庫: 從設計講起](https://ithelp.ithome.com.tw/articles/10242588)
+[Day 23 — 關聯式資料庫: 從設計講起](https://ithelp.ithome.com.tw/articles/10242588)<br>
+[[第九週]後端基礎 — 資料庫系統、Table schema、SQL 語法](https://miahsuwork.medium.com/%E7%AC%AC%E4%B9%9D%E9%80%B1-%E5%BE%8C%E7%AB%AF%E5%9F%BA%E7%A4%8E-%E8%B3%87%E6%96%99%E5%BA%AB%E7%B3%BB%E7%B5%B1-table-schema-sql-%E8%AA%9E%E6%B3%95-29243eeec35)<br>
