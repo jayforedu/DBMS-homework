@@ -21,9 +21,11 @@
 [七、實作結果](https://github.com/jayforedu/DBMS-homework/tree/main#%E4%B8%83%E5%AF%A6%E4%BD%9C%E7%B5%90%E6%9E%9C)<br>
 [八、view實作](https://github.com/jayforedu/DBMS-homework/tree/main#%E5%85%ABview%E5%AF%A6%E4%BD%9C)<br>
 [九、團隊分工](https://github.com/jayforedu/DBMS-homework/tree/main#%E4%B9%9D%E5%9C%98%E9%9A%8A%E5%88%86%E5%B7%A5)<br>
-[十、參考資料](url)
+[十、參考資料](https://github.com/jayforedu/DBMS-homework/tree/main?tab=readme-ov-file#%E5%8D%81%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99)
 
 ## 一、應用情境與使用案例（Use Case）
+
+**本專題皆有使用ChatGPT輔助**
 
 ### 🔹 應用情境說明
 本系統模擬一個電商平台（如蝦皮），讓賣家能夠上架商品、管理訂單，買家能夠註冊帳號、瀏覽商品、下訂單與付款，並提供評價功能。系統亦包含後台管理員可監控整體平台狀況。
