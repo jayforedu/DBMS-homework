@@ -312,11 +312,8 @@ SELECT * FROM CustomerPublicInfo;
 
 #### 結果範例
 
-| customer_id | name       |
-|-------------|------------|
-| 1           | Alice Lin  |
-| 2           | Bob Lee    |
-
+<div align=center> <img src="pics/CustomerPublicInfo.png"/> </div>
+<br>
 
 ---
 
@@ -345,9 +342,8 @@ SELECT * FROM SellerStats WHERE average_rating >= 4.5;
 
 #### 結果範例
 
-| seller_id | seller_name | total_products | average_rating |
-|-----------|--------------|----------------|----------------|
-| 1         | Jane Chen    | 12             | 4.67           |
+<div align=center> <img src="pics/SellerStats.png"/> </div>
+<br>
 
 
 ---
@@ -378,10 +374,8 @@ SELECT * FROM HighPricedProducts LIMIT 2;
 
 #### 結果範例
 
-| product_id | name         | price | stock | category | seller_id |
-|------------|--------------|-------|-------|----------|------------|
-| 101        | Luxury Watch | 8999  | 5     | Watches  | 2          |
-| 102        | Diamond Ring | 7999  | 3     | Jewelry  | 3          |
+<div align=center> <img src="pics/HighPricedProducts.png"/> </div>
+<br>
 
 
 ---
@@ -410,10 +404,8 @@ SELECT * FROM OrderSummary WHERE status = '已出貨';
 
 #### 結果範例
 
-| order_id | order_date          | status | customer_name | customer_email       |
-|----------|----------------------|--------|----------------|-----------------------|
-| 1        | 2024-06-01 12:00:00 | 已出貨 | Alice Lin      | alice@example.com     |
-
+<div align=center> <img src="pics/OrderSummary.png"/> </div>
+<br>
 
 ---
 
@@ -440,12 +432,9 @@ SELECT * FROM OrderItemDetails;
 ```
 
 #### 結果範例
-| order\_id | product\_id | product\_name | quantity | price\_at\_purchase |
-| --------- | ----------- | ------------- | -------- | ------------------- |
-| 401       | 302         | iPhone 15 Pro | 1        | 45900               |
-| 401       | 303         | AirPods Pro   | 2        | 7490                |
 
-
+<div align=center> <img src="pics/OrderItemDetails.png"/> </div>
+<br>
 
 ---
 
@@ -472,10 +461,8 @@ SELECT * FROM ProductReviewStats;
 ```
 
 #### 結果範例
-| product\_id | product\_name | average\_rating | latest\_review\_time |
-| ----------- | ------------- | --------------- | -------------------- |
-| 302         | iPhone 15 Pro | 4.75            | 2024-05-30 14:25:00  |
-| 303         | AirPods Pro   | 4.60            | 2024-05-29 18:00:00  |
+<div align=center> <img src="pics/ProductReviewStats.png"/> </div>
+<br>
 
 
 
@@ -503,10 +490,8 @@ SELECT * FROM LatestProductReview;
 ```
 
 #### 結果範例
-| review\_id | product\_id | rating | review\_text             | review\_date        |
-| ---------- | ----------- | ------ | ------------------------ | ------------------- |
-| 601        | 302         | 5      | Excellent sound quality! | 2024-05-30 14:25:00 |
-| 602        | 303         | 4      | Great value for price.   | 2024-05-29 18:00:00 |
+<div align=center> <img src="pics/LatesProductRiew.png"/> </div>
+<br>
 
 
 ---
